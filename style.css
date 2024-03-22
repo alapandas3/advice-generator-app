@@ -1,0 +1,85 @@
+
+@font-face {
+    font-family: "manrose";
+    src: url('design\\Manrope-VariableFont_wght.ttf');
+}
+:root {
+    --LightCyan: hsl(193, 38%, 86%);
+    --NeonGreen: hsl(150, 100%, 66%);
+    --GrayishBlue: hsl(217, 19%, 38%);
+    --DarkGrayishBlue: hsl(217, 19%, 24%);
+    --DarkBlue: hsl(218, 23%, 16%);
+
+}
+body{
+    background-color: var(--DarkBlue);
+}
+#container{
+    padding: 12px;
+    border-radius: 8px;
+    background-color: var(--DarkGrayishBlue);
+    margin: auto auto auto auto  ;
+    text-align: center;
+    width: fit-content;
+    max-width: 400px;
+    position: relative;
+    margin-top: 15%;
+    min-width: 100px;
+}
+#number{
+    display: flex;
+    width: max-content;
+    align-items: center;
+    text-align: center;
+    margin: auto auto;
+    padding-top: 12px;
+    font-family:"manrose";
+    font-weight: 400;
+    color: var(--NeonGreen);
+    font-size: smaller;
+
+}
+#result{
+    width: 300px;
+    max-width: 400px;
+    min-width: none;
+    align-items: center;
+    text-align: center;
+    margin: auto ;
+    padding: 8px;
+    height: auto;
+}
+#result-text{
+    width: auto;
+    font-family: "manrose";
+    font-size: large;
+    font-weight: 800;
+    color: var(--LightCyan);
+    /* width: 250px; */
+}
+img.divider{
+    width: 350px;
+    height: 20px;
+}
+button{
+    width: 50px;
+    height: 50px;
+    border: 1px transparent var(--NeonGreen);
+    border-radius:  12px;
+    background-color: var(--NeonGreen);
+    margin: 12px auto;
+}
+img.button{
+    /* width: 80px; */
+    width: fit-content;
+    align-items: center;
+    display: flex;
+    margin: auto auto;
+    size: 50px;
+    color: var(--NeonGreen);
+    background-color: var(--NeonGreen);
+    height: 40px;
+}
+footer{
+    display: flexbox;
+}
